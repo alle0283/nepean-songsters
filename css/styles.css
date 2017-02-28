@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -60,3 +62,4 @@ nav ul li a:active {
 nav ul li a:hover {
 	text-decoration: underline;
 }
+>>>>>>> refs/remotes/origin/master
