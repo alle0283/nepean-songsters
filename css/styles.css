@@ -11,6 +11,10 @@ header {
 
 .logo-mobile {
 	display: block;
+	width: 45%;
+	height: auto;
+	float: left;
+	margin: 0;
 }
 
 .logo-desktop {
