@@ -11,26 +11,42 @@
 .main
 {
 	margin-top: 20px;
+	width: 90%;
+	margin-left: 5%;
+
 }
 .main h2
 {
 	text-align: center;
 	font-family: 'Merriweather', serif;
+
 }
 
 .wcnotes
 {
 	margin-top: 40px;
+	line-height: 1.4rem;
+
 }
 
 .subheading
 {
 	font-weight: 600;
 	font-family: 'Roboto', sans-serif;
+	margin-bottom: 20px;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	
+}
+.wcnotes p
+{
+	margin-bottom: 10px;
 
+}
+.intro
+{
+	width: 90%;
+	margin-left: 5%;
 }
 /*end of main section*/
 
-header {
-	margin: 5%;
-}
