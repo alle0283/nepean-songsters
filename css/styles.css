@@ -4,6 +4,13 @@
 	padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
+
+.main h2
+{
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
 header {
 	margin: 1.5rem;
 	font-family: "Merriweather", Helvetica, sans-serif;
