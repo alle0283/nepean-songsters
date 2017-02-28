@@ -34,9 +34,10 @@ nav ul {
 }
 
 nav ul li {
-	display: inline;
+	display: inline
+	float: left;
 }
 
 nav ul li a {
-
+ 	text-decoration: none;
 }
