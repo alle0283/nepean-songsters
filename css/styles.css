@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+=======
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
+
+/*main section*/
+
+
+.main h2
+{
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+/*end of main section*/
+
+header {
+	margin: 1.5rem;
+	font-family: "Merriweather", Helvetica, sans-serif;
+	height: auto;
+}
+
+.logo-mobile {
+	display: block;
+	width: 20%;
+	height: auto;
+	float: left;
+	margin: 1rem;
+}
+
+.logo-desktop {
+	display: none;
+}
+
+nav ul {
+	list-style-type: none;
+	clear: both;
+	font-family: "Roboto", Helvetica, sans-serif;
+}
+
+nav ul li {
+	display: inline;
+	float: left;
+	font-size: 110%;
+}
+
+nav ul li a {
+ 	text-decoration: none;
+	color: black;
+	padding: 0.5rem;
+}
+
+nav ul li a:active {
+	color: blue;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+>>>>>>> refs/remotes/origin/master
