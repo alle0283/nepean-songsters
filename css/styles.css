@@ -25,10 +25,10 @@ header {
 
 .logo-mobile {
 	display: block;
-	width: 45%;
+	width: 20%;
 	height: auto;
 	float: left;
-	margin: 0;
+	margin: 1rem;
 }
 
 .logo-desktop {
@@ -37,13 +37,26 @@ header {
 
 nav ul {
 	list-style-type: none;
+	clear: both;
+	font-family: "Roboto", Helvetica, sans-serif;
 }
 
 nav ul li {
-	display: inline
+	display: inline;
 	float: left;
+	font-size: 110%;
 }
 
 nav ul li a {
  	text-decoration: none;
+	color: black;
+	padding: 0.5rem;
+}
+
+nav ul li a:active {
+	color: blue;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
 }
