@@ -8,13 +8,27 @@
 
 /*main section*/
 
-
+.main
+{
+	margin-top: 20px;
+}
 .main h2
 {
 	text-align: center;
 	font-family: 'Merriweather', serif;
 }
 
+.wcnotes
+{
+	margin-top: 40px;
+}
+
+.subheading
+{
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+
+}
 /*end of main section*/
 
 header {
