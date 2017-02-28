@@ -93,5 +93,13 @@ nav ul li a:hover {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem;
 }
+
+.main img
+{
+	width: 80%;
+	margin-left: 10%;
+	height: 300px;
+	margin-bottom: 20px;
+}
 /*end of main section*/
 
