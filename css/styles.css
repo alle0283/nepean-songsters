@@ -240,7 +240,8 @@ h5 a:hover
 	}
 	.footernav ul
 	{
-		font-size: 0.9rem;
+		font-size: 0.8rem;
+
 	}
 	.contact-info
 	{
@@ -288,5 +289,99 @@ h5 a:hover
 		text-shadow: 1px 1px 1px black;
 	}
 
+}
+@media only screen and (min-width: 80rem)
+{
+
+.footernav
+{
+	width: 28%;
+	height: 85%;
+	margin-left: 5%;
+	float: left;
+}
+.footernav ul
+{
+	list-style-type: none;
+	font-family: 'Merriweather', serif;
+	font-size: 1.2rem;
+}
+.footernav ul li
+{
+	line-height: 2.8rem;
+}
+.footernav ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.footernav ul li a:hover
+{
+	text-shadow: 2px 2px 2px black;
+}
+
+.contact-info
+{
+	width: 30%;
+	height: 85%;
+	margin-left: 5%;
+	float: left;
+
+}
+h5
+{
+
+	font-family: 'Merriweather', serif;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+h5 a
+{
+	text-decoration: none;
+	color: inherit;
+}
+h5 a:hover
+{
+	text-shadow: 1px 1px 1px black;
+}
+.contact-info p
+{
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+}
+.social-media
+{
+	width: 28%;
+	height: 85%;
+	margin-left: 2%;
+	float: right;
+}
+.social-media a
+{
+	text-decoration: none;
+	color: white;
+	padding: 2rem;
+
+
+}
+.social-media a i
+{
+	margin-top: 100px;
+
+	font-size: 50px;
+}
+
+#copyright
+{
+	text-align: center;
+	width: 100%;
+	clear: both;
+	padding-top: 10px;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
 }
 /*end of footer*/
