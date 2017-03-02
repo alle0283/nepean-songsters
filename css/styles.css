@@ -116,8 +116,8 @@ nav ul li a:hover {
 	}
 	.intro
 	{
-		font-size: 1.2rem;
-		line-height: 1.7rem;
+		font-size: 1.1rem;
+		line-height: 1.9rem;
 	}
 	.subheading
 	{
@@ -279,109 +279,47 @@ h5 a:hover
 		font-size: 20px;
 	}
 
-	#copyright
-	{
-		text-align: center;
-		width: 100%;
-		clear: both;
-		padding-top: 10px;
-		color: white;
-		text-shadow: 1px 1px 1px black;
-	}
+	
 
 }
-@media only screen and (min-width: 80rem)
+
+@media only screen and (min-width: 30.1rem)
 {
 
-.footernav
-{
-	width: 28%;
-	height: 85%;
-	margin-left: 5%;
-	float: left;
-}
 .footernav ul
 {
-	list-style-type: none;
-	font-family: 'Merriweather', serif;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .footernav ul li
 {
-	line-height: 2.8rem;
-}
-.footernav ul li a
-{
-	text-decoration: none;
-	color: white;
+	line-height: 2.3rem;
 }
 
-.footernav ul li a:hover
-{
-	text-shadow: 2px 2px 2px black;
-}
-
-.contact-info
-{
-	width: 30%;
-	height: 85%;
-	margin-left: 5%;
-	float: left;
-
-}
 h5
 {
 
-	font-family: 'Merriweather', serif;
-	font-size: 1.2rem;
-	line-height: 1.5rem;
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-h5 a
-{
-	text-decoration: none;
-	color: inherit;
-}
-h5 a:hover
-{
-	text-shadow: 1px 1px 1px black;
+	font-size: 1rem;
+	line-height: 1.3rem;
 }
 .contact-info p
 {
-	margin-bottom: 10px;
-	font-size: 1.2rem;
-}
-.social-media
-{
-	width: 28%;
-	height: 85%;
-	margin-left: 2%;
-	float: right;
+	font-size: 1rem;
 }
 .social-media a
 {
-	text-decoration: none;
-	color: white;
-	padding: 2rem;
+	padding: 1.5rem;
 
 
 }
 .social-media a i
 {
-	margin-top: 100px;
-
-	font-size: 50px;
+	font-size: 30px;
 }
 
-#copyright
-{
-	text-align: center;
-	width: 100%;
-	clear: both;
-	padding-top: 10px;
-	color: white;
-	text-shadow: 1px 1px 1px black;
+
+
+
+
 }
-}
+
 /*end of footer*/
