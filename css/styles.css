@@ -191,29 +191,10 @@ nav ul li a:hover {
 }
 
 
-
-
-
-/*footer section*/
-
-
-
-
-
-
-
-
-
-
-/*end of footer*/
 @media only screen and (min-width: 0em) and (max-width: 25em)
 {
 
 	nav ul li {
-		font-size: 0.5rem;
-	}
-	#copyright
-	{
 		font-size: 0.5rem;
 	}
 }
