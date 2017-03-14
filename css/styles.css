@@ -71,7 +71,15 @@ header {
 	text-decoration: none;
 	color: #0e79b2;
 }
-
+.header-social-media a:hover 
+{
+	text-decoration: none;
+	color: blue;
+}
+.header-social-media .fa-youtube-play:hover
+{
+	color: red;
+}
 nav
 {
 	height: 30%;
@@ -157,7 +165,7 @@ nav ul li a:hover {
 {
 	text-align: center;
 	font-family: 'Merriweather', serif;
-	text-shadow: 2px 2px 2px silver;
+	
 
 }
 .subheading
@@ -191,7 +199,7 @@ nav ul li a:hover {
 {
 	width: 80%;
 	margin-left: 10%;
-	height: 300px;
+	height: 100%;
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
@@ -368,10 +376,15 @@ h5 a:hover
 	.social-media a
 	{
 		text-decoration: none;
-	color: white;
+		color: white;
 		padding: 0;
 
 
+	}
+	.social-media a:hover
+	{
+		color: white;
+		text-shadow: 1px 1px 1px black;
 	}
 	.social-media a i
 	{
@@ -392,7 +405,7 @@ h5 a:hover
 	clear: both;
 	padding-top: 20px;
 	color: white;
-	text-shadow: 1px 1px 1px black;
+	
 	font-size: 1rem;
 }
 
@@ -546,7 +559,8 @@ h5
 	clear: both;
 	padding-top: 10px;
 	color: white;
-	text-shadow: 1px 1px 1px black;
+	
+
 }
 
 }
@@ -711,7 +725,7 @@ h5
 	clear: both;
 	padding-top: 10px;
 	color: white;
-	text-shadow: 1px 1px 1px black;
+	
 }
 }
 
