@@ -66,6 +66,12 @@ header {
 
 }
 
+.header-social-media a 
+{
+	text-decoration: none;
+	color: #0e79b2;
+}
+
 nav
 {
 	height: 30%;
@@ -196,6 +202,16 @@ nav ul li a:hover {
 
 	nav ul li {
 		font-size: 0.5rem;
+	}
+	#copyright
+	{
+		text-align: center;
+		width: 100%;
+		clear: both;
+		padding-top: 20px;
+		color: white;
+		text-shadow: 1px 1px 1px black;
+		font-size: 0.8rem;
 	}
 }
 
