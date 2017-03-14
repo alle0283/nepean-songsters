@@ -63,6 +63,8 @@ header {
 	height: 70%;
 	padding-left: 0;
 	padding-top: 30px;
+	
+
 
 }
 
@@ -70,6 +72,10 @@ header {
 {
 	text-decoration: none;
 	color: #0e79b2;
+}
+.header-social-media a:last-child
+{
+	margin-left: 15%;
 }
 .header-social-media a:hover 
 {
@@ -261,6 +267,7 @@ nav ul li a:hover {
 	padding-left: 0;
 	padding-top: 30px;
 	font-size: 25px;
+	
 
 }
 
