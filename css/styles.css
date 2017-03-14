@@ -186,12 +186,6 @@ nav ul li a:hover {
 	margin-top: 20px;
 }
 
-@media only screen and (min-width: 0em) and (max-width: 25em) {
-
-	nav ul li {
-		font-size: 0.5rem;
-	}
-
 	#copyright {
 		text-align: center;
 		width: 100%;
