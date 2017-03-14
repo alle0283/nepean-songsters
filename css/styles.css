@@ -2,41 +2,33 @@
 
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
 
 /*header section*/
 
 header {
-	margin: 1rem 1rem 1rem 1rem;
+	margin: 1rem;
 	font-family: "Merriweather", Helvetica, sans-serif;
-	height: 200px;
+	height: auto;
 }
 
 .logo {
-	width: 25%;
+	width: 20%;
 	height: 70%;
 	float: left;
+	margin-right: 1rem;
 }
 
 .logo-mobile {
 	display: block;
-	width: 80%;
+	width: 100%;
 	height: auto;
-	float: left;
-	margin: 0.2rem;
 }
 
 .logo-desktop {
 	display: none;
 }
 
-.title {
-	width: 60%;
-	height: 70%;
-	float: left;
-}
 .title h1 {
 	font-size: 1.4rem;
 	margin-bottom: 10px;
@@ -48,31 +40,17 @@ header {
 	line-height: 1.1rem;
 }
 
-.header-social-media {
-	width: 15%;
-	float: right;
-	height: 70%;
-	padding-left: 0;
-	padding-top: 30px;
-}
-
-.header-social-media a {
-	text-decoration: none;
-	color: #0e79b2;
-}
-
-.header-social-media a:last-child {
-	margin-left: 15%;
-}
-
-.header-social-media a:hover {
-	text-decoration: none;
-	color: blue;
-}
 
 .header-social-media .fa-youtube-play:hover {
 	color: red;
 }
+
+.nav {
+	text-align: center;
+	font-family: "Roboto";
+	margin-bottom: 1rem;
+}
+
 .navbar {
     list-style: none;
     padding: 0;
@@ -81,20 +59,21 @@ header {
 
 .navbar li {
     display: inline;
-    border: 1rem black;
 }
 
 .navbar li a {
     display: block;
-    background-color: #E8D915;
-    color: #333;
+		border: 0.1rem solid black;
+		background-color: #0e79b2;
+    color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 0 0 1px 0;
 }
 
 .navbar li a:hover {
-    background-color: #24FFAD;
+    background-color: white;
+		color: #0e79b2;
 }
 
 .navbar li:last-child a {
@@ -111,10 +90,10 @@ header {
 	text-decoration: underline;
 }
 
-
-nav ul li a:hover {
-	color: #0e79b2;
-	text-decoration: underline;
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 #copyright {
