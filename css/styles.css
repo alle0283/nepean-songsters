@@ -26,6 +26,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+.masthead h1 {
+    margin: 0;
+    padding-left: 1rem;
+    text-align: left;
+    font-size: 180%;
+}
+
 img {
     display: block;
     width: 100%;
@@ -69,13 +76,6 @@ a {
     float: left;
     margin-bottom: 1rem;
     padding: 0;
-}
-
-.masthead h1 {
-    margin: 0;
-    padding-left: 1rem;
-    text-align: left;
-    font-size: 180%;
 }
 
 .nav-bg .content-box {
@@ -158,21 +158,6 @@ ul {
     ul.navbar li:last-child a {
         margin: 0;
     }
-    .main {
-        margin: 2rem;
-    }
-    .clearfix ul::after {
-        content: "";
-        display: block;
-        clear: left;
-    }
-    .clearfix ul li {
-        width: calc(33.33% - 0.66rem);
-        float: left;
-    }
-    .clearfix ul li:nth-child(3n) {
-        margin: 0 0 1rem 0;
-    }
     .logo {
         width: 10rem;
         height: auto;
@@ -194,6 +179,21 @@ ul {
     }
     .logo-desktop {
         display: block;
+    }
+    .main {
+        margin: 2rem;
+    }
+    .clearfix ul::after {
+        content: "";
+        display: block;
+        clear: left;
+    }
+    .clearfix ul li {
+        width: calc(33.33% - 0.66rem);
+        float: left;
+    }
+    .clearfix ul li:nth-child(3n) {
+        margin: 0 0 1rem 0;
     }
 }
 
@@ -217,23 +217,7 @@ ul {
     ul.navbar li:last-child a {
         margin: 0;
     }
-    .content-box {
-        align-items: left;
-    }
-    body {
-        font-size: 1.4rem;
-        align-items: left;
-    }
-    h1 {
-        text-align: left;
-    }
-    img {
-        align: left;
-    }
-    .main {
-        margin: 5rem;
-    }
-    .logo {
+		.logo {
         width: 14rem;
         height: auto;
         float: left;
@@ -254,6 +238,22 @@ ul {
     }
     .logo-desktop {
         display: block;
+    }
+    .content-box {
+        align-items: left;
+    }
+    body {
+        font-size: 1.4rem;
+        align-items: left;
+    }
+    h1 {
+        text-align: left;
+    }
+    img {
+        align: left;
+    }
+    .main {
+        margin: 5rem;
     }
     .clearfix ul::after {
         content: "";
