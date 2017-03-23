@@ -66,7 +66,6 @@ a {
 }
 
 .wrapper {
-    max-width: 100rem;
     margin: 1rem;
 }
 
@@ -80,6 +79,19 @@ a {
 
 .nav-bg .content-box {
     margin: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content-box img {
+    padding: 0 1rem;
+}
+
+.content-box img:nth-child(2) {
+    margin: 1rem 0;
 }
 
 
@@ -109,6 +121,8 @@ a {
 .navbar li a:hover {
     background-color: white;
     color: #0e79b2;
+    border: 2px solid #0e79b2;
+    padding: calc(0.5rem - 2px) 1rem;
 }
 
 .navbar li:last-child a {
@@ -136,9 +150,96 @@ ul {
     list-style-type: none;
 }
 
-@media screen and (min-width: 35rem) and (max-width: 50rem) {}
+/* Footer */
 
-@media screen and (min-width: 50rem) and (max-width: 80rem) {
+footer {
+    background-color: #0e79b2;
+    padding: 15px;
+    color: white;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+
+.footer-nav li {
+    padding: 7px 0;
+    font-weight: 800;
+}
+
+.footer-nav li a {
+  position: relative;
+}
+
+.footer-nav li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -o-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -o-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.footer-nav li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.footer-contact li:nth-child(2), .footer-contact li:nth-child(4) {
+    margin-bottom: 8px;
+}
+
+
+#copyright {
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+@media screen and (min-width: 25rem) {
+    footer div {
+        float: left;
+        margin-bottom: 0px;
+    }
+
+    .footer-nav {
+        width: 40%;
+        padding-left: 20px;
+    }
+
+    .footer-contact {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 50rem) {
     ul.navbar {
         width: 100%;
         margin: 0 auto;
@@ -154,6 +255,9 @@ ul {
         float: left;
         margin: 0 2px 0 0;
         padding: 1rem;
+    }
+    ul.navbar li a:hover {
+        padding: calc(1rem - 2px) 1rem;
     }
     ul.navbar li:last-child a {
         margin: 0;
@@ -183,17 +287,23 @@ ul {
     .main {
         margin: 2rem;
     }
-    .clearfix ul::after {
-        content: "";
-        display: block;
-        clear: left;
-    }
-    .clearfix ul li {
-        width: calc(33.33% - 0.66rem);
+    
+    .gallery img {
+        padding: 0 1rem;
         float: left;
+        width: calc(99.9%/3);
     }
-    .clearfix ul li:nth-child(3n) {
-        margin: 0 0 1rem 0;
+
+    .gallery img:nth-child(2) {
+        margin: 0;
+    }
+
+    .footer-nav {
+        width: 30%;
+    }
+
+    .footer-contact {
+        width: 70%;
     }
 }
 
@@ -213,6 +323,9 @@ ul {
         float: left;
         margin: 0 5px 0 0;
         padding: 1rem;
+    }
+    ul.navbar li a:hover {
+        padding: calc(1rem - 2px) 1rem;
     }
     ul.navbar li:last-child a {
         margin: 0;
@@ -249,22 +362,19 @@ ul {
     h1 {
         text-align: left;
     }
-    img {
-        align: left;
-    }
     .main {
         margin: 5rem;
     }
-    .clearfix ul::after {
+    header ul::after {
         content: "";
         display: block;
         clear: left;
     }
-    .clearfix ul li {
+    header ul li {
         width: calc(33.33% - 0.66rem);
         float: left;
     }
-    .clearfix ul li:nth-child(3n) {
+    header ul li:nth-child(3n) {
         margin: 0 0 1rem 0;
     }
 }
